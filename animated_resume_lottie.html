@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanket Palkar - Resume</title>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #FE9833;
+      color: #ffffff;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(254, 152, 51, 0.5);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      transition: box-shadow 0.3s ease;
+    }
+    header.scrolled {
+      box-shadow: 0 4px 8px rgba(254, 152, 51, 0.7);
+    }
+    section {
+      padding: 2rem;
+      border-bottom: 1px solid #f0f0f0;
+      opacity: 0;
+      transform: translateY(20px);
+      animation-fill-mode: forwards;
+      animation-duration: 0.6s;
+      animation-timing-function: ease-out;
+    }
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    h2 {
+      color: #FE9833;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      transition: color 0.3s ease;
+    }
+    h2:hover {
+      color: #cc7a29;
+    }
+    .animation {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .animation:hover {
+      transform: scale(1.05);
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    a {
+      color: #FE9833;
+      text-decoration: none;
+      margin: 0 0.5rem;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #cc7a29;
+    }
+  </style>
+</head>
+<body>
+  <header id="page-header">
+    <h1>Sanket Palkar</h1>
+    <p>sanketpalkar996@gmail.com | (+91) 8668558195</p>
+    <p>
+      <a href="https://github.com/sanketpalkar9" aria-label="GitHub" style="margin-right: 10px; display: inline-flex; align-items: center; color: #333333; text-decoration: none;">
+        <svg height="24" width="24" viewBox="0 0 16 16" fill="#333333" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" style="margin-right: 5px;">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 012 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/in/sanket-palkar-4469a2258" aria-label="LinkedIn" style="margin-left: 10px; display: inline-flex; align-items: center; color: #333333; text-decoration: none;">
+        <svg height="24" width="24" viewBox="0 0 24 24" fill="#333333" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" style="margin-right: 5px;">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.354V9h3.414v1.561h.049c.476-.9 1.637-1.852 3.37-1.852 3.602 0 4.268 2.37 4.268 5.455v6.288zM5.337 7.433a2.07 2.07 0 11.001-4.139 2.07 2.07 0 01-.001 4.139zm1.777 13.019H3.56V9h3.554v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.2 24 24 23.226 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+        </svg>
+        LinkedIn
+      </a>
+    </p>
+  </header>
+
+  <div class="container">
+    <section>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        
+        <div style="flex: 1; padding-right: 1rem;">
+            <h2 style="font-size: large;">General Info</h2>
+<p style="font-size: large;">
+  I am a passionate and detail-oriented fourth-year Computer Engineering student at Vishwakarma Institute of Technology (VIT), Pune. With a strong foundation in software development and data analysis, I actively explore new technologies to build real-world solutions. My academic journey and hands-on project experience have helped me develop critical problem-solving, team collaboration, and leadership skills.
+</p>
+<p style="font-size: large;">
+  My current focus areas include full-stack development, machine learning, and systems design. I enjoy applying theoretical concepts in practical scenarios and am always eager to contribute to innovative tech-driven initiatives.
+</p>        </div>
+        <div style="flex: 1; display: flex; justify-content: center; align-items: flex-start;">
+<img src="square photo.png" alt="Profile Image" style="width: 300px; height: 300px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding-bottom: 10px; border-bottom: 5px solid #FE9833; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" />
+        </div>
+      
+      </div>
+    </section>
+
+<section>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem;">
+    
+    <!-- Animation on the left -->
+    <div style="flex: 1; min-width: 250px; display: flex; justify-content: center;">
+      <div class="animation">
+        <lottie-player 
+          src="https://assets9.lottiefiles.com/packages/lf20_4kx2q32n.json" 
+          background="transparent" 
+          speed="1" 
+          style="width: 100%; max-width: 300px; height: 300px;" 
+          loop autoplay>
+        </lottie-player>
+      </div>
+    </div>
+
+    <!-- Skills content on the right -->
+    <div style="flex: 1; min-width: 300px;">
+      <h2>Skills</h2>
+      <p><strong>Programming Languages:</strong> Proficient in C, C++, and Python. Familiar with Java, JavaScript, R, and SQL for various development and data manipulation tasks.</p>
+      <p><strong>Concepts:</strong> Solid understanding of Operating Systems, Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, and introductory Machine Learning concepts. Also skilled in basic web development (HTML, CSS, JS).</p>
+      <p><strong>Soft Skills:</strong> Experienced in leading teams and organizing events, demonstrating excellent coordination, management, and interpersonal communication abilities. Comfortable in both individual and collaborative work environments.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem;">
+
+    <!-- Content Left -->
+    <div style="flex: 1; min-width: 300px;">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Class 10:</strong> Scored 92.2% — developed strong analytical and logical reasoning foundations.</li>
+        <li><strong>Class 12:</strong> Achieved 91.83%, focusing on PCM subjects.</li>
+        <li><strong>JEE Main 2022:</strong> 93.94 percentile, eligible for reputed institutions.</li>
+        <li><strong>B.Tech - Computer Engineering:</strong> CGPA of 8.45 at VIT Pune.</li>
+      </ul>
+    </div>
+
+    <!-- Animation Right -->
+    <div style="flex: 1; min-width: 250px; display: flex; justify-content: center;">
+      <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+      <dotlottie-player 
+        src="https://lottie.host/4c650e9b-5ed8-4fc4-9253-c03e39ba2583/yhPNhKTPez.lottie" 
+        background="transparent" 
+        speed="1" 
+        style="width: 300px; height: 300px" 
+        loop 
+        autoplay>
+      </dotlottie-player>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem;">
+
+    <!-- Animation Left -->
+    <div style="flex: 1; min-width: 250px; display: flex; justify-content: center; align-items: center;">
+      <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+      <dotlottie-player 
+        src="https://lottie.host/3c60e676-745f-461e-a8da-de819acd9f86/iPkjV04qLY.lottie" 
+        background="transparent" 
+        speed="0.8" 
+        style="width: 300px; height: 300px;" 
+        loop 
+        autoplay>
+      </dotlottie-player>
+    </div>
+
+    <!-- Content Right -->
+    <div style="flex: 1; min-width: 300px;">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Bus Driver Monitoring:</strong> Built a real-time alert system using Raspberry Pi and OpenCV to detect drowsiness/distraction.</li>
+        <li><strong>Cuisine Prediction:</strong> Used ML classifiers (RF, SVM, KNN) on Zomato data to predict cuisine from ingredients.</li>
+        <li><strong>Night Patrolling Robot:</strong> Designed an IoT robot with sensors and GSM for remote surveillance in dark zones.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+    <section>
+     <h2>Leadership & Roles</h2>
+<ul>
+  <li><strong>Venue Coordinator, VIT Pune:</strong> Managed logistics and technical setup for over 10 major campus events, ensuring smooth coordination with teams, vendors, and volunteers.</li>
+  <li><strong>Website Head, VIT MUN 2024:</strong> Led website design and development for the VIT Model United Nations 2024, maintaining responsiveness, SEO, and event content updates.</li>
+  <li><strong>Venue Secretary, EPEC 2025:</strong> Oversaw venue-related responsibilities for EPEC (Student Counsil), collaborating with participants and faculty for event execution.</li>
+  <li><strong>Operations Secretary, CSI 2025:</strong> Managed event operations and student engagement for the Computer Society of India (VIT chapter), including workshops, hackathons, and tech talks.</li>
+  <li><strong>Founder, InnovSphere 2025:</strong> Initiated a collaborative platform for interdisciplinary innovation projects at VIT, encouraging student-led solutions to real-world problems.</li>
+</ul>
+
+    </section>
+  </div>
+
+  <script>
+    // Sticky header shadow on scroll
+    const header = document.getElementById('page-header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 10) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Animate sections on scroll
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+</body>
+</html>
